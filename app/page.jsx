@@ -209,7 +209,7 @@ export default function Page() {
         "",
         `\\text{Умножим (1) на ${b2}, (2) на ${b1}:}`,
         `${a1*b2}x ${b1*b2 >= 0 ? "+" : ""}${b1*b2}y = ${frac(c1.n*b2, c1.d)}`,
-        `${a2*b1}x ${b2*B1 >= 0 ? "+" : ""}${b2*b1}y = ${frac(c2.n*b1, c2.d)}`,
+        `${a2*b1}x ${b2*b1 >= 0 ? "+" : ""}${b2*b1}y = ${frac(c2.n*b1, c2.d)}`,
         "",
         `\\text{Вычтем: } (${a1*b2 - a2*b1})x = ${frac(c1.n*b2/c1.d - c2.n*b1/c2.d, 1)}`,
         `${det}x = ${frac((c1.n*b2 - c2.n*b1), c1.d)}`,
